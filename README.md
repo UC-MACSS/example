@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.6429152.svg)](https://doi.org/10.5281/zenodo.6429152)
+
 # Supplemental Code: Example
 
 The code and data in this repository is an example of a reproducible research workflow for MACS 30200 "Perspectives on Computational Research" at the University of Chicago.
@@ -31,4 +33,4 @@ analysis.plot(df)
 
 Alternatively, to replicate the analysis and produce all of the figures and quantitative analyses from the (hypothetical) publication that this code supplements, build and run the `Dockerfile` included in this repository via the instructions in the file).
 
-If you use this repository for a scientific publication, we would appreciate it if you cited the [Zenodo DOI]() (see the "Cite as" section on our Zenodo page for more details).
+If you use this repository for a scientific publication, we would appreciate it if you cited the [Zenodo DOI](https://doi.org/10.5281/zenodo.6429152) (see the "Cite as" section on our Zenodo page for more details).
