@@ -7,7 +7,7 @@ def process_data(data):
     Input: CSV filename (str)
     Returns: Pandas DataFrame (processed and ready to analyze)
     '''
-    df = pd.read_csv("data.csv")
+    df = pd.read_csv(data)
     return df
 
 def plot(data, save_fig=False):
@@ -29,5 +29,5 @@ def plot(data, save_fig=False):
                     pil_kwargs={"compression": "tiff_lzw"})
 
 if __name__ == "__main__":
-    df = process_data('data.csv')
+    df = process_data("data.csv")
     plot(data=df, save_fig=True)
